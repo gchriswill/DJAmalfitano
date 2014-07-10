@@ -1,1 +1,75 @@
 /* Custom CSS */
+a {
+	color: white;
+}
+
+div.navWrapper {
+	background-color: #333;
+	width: 100%;
+	height: 50px;
+	display: block;
+	
+}
+
+nav.MainNav {
+	
+	width: inherit;
+	height: inherit;
+	
+}
+
+div.brandLink {
+
+	display: inline-block;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+}
+
+a.mobile-platform {
+		
+		font-size: 24px;
+		
+}
+
+img.mobile-hamburgerMenu {
+	
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 30px;
+	width: auto;
+	float: right;
+	
+}
+
+
+@media (max-width:640px) {
+	
+	div.brandLink {
+
+	margin-top: 15px;
+	
+	}
+	
+	a.mobile-platform {
+		
+		float: left;
+		font-size: 14px;
+		
+	}
+	
+	
+	img.mobile-hamburgerMenu {
+		
+		margin-top: 10px;
+		margin-right: 10px;
+		height: 30px;
+		width: auto;
+		float: right;
+		
+	}
+	
+}
+
+
