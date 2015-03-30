@@ -64,9 +64,9 @@ div.emailLink {
 }
 div.twitterLink {
 	position:absolute;
-	margin-top:20px;
-	margin-right:5px;
 	right:20px;
+	margin-right:5px;
+	
 }
 div.githubLink {
 	position:absolute;
