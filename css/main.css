@@ -9,11 +9,11 @@ body {
 
 
 div.navWrapper {
-	background-color: #333;
+	background-color: white;
 	position: absolute;
-	margin-bottom: 70px;
+	margin-left:30px;
 	width: 200px;
-	height: 100%;
+	height: 80%;
 	display: block;
 	
 }
