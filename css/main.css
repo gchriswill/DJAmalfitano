@@ -1,10 +1,10 @@
 /* Custom CSS */
 a {
-	color: black;
+	color: white;
 }
 
-div.background {
-	color: black;
+div.OuterContainer {
+	background-color: black;
 }
 
 
