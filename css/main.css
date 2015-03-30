@@ -47,10 +47,30 @@ div.brandLink {
 	
 }
 
+div.emailLink {
+	position:center;
+	
+}
+div.twitterLink {
+	right:center;
+	margin-right:20px;
+}
+div.githubLink {
+	left:center;
+	margin-left:20px;
+	
+}
+
 a.mobile-platform {
 		
 		font-size: 24px;
 		
+}
+
+a.bottomText {
+	
+	font-Size: 20px;
+	
 }
 
 img.mobile-hamburgerMenu {
