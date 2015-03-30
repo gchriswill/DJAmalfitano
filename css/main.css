@@ -50,7 +50,7 @@ div.brandLink {
 div.emailLink {
 	position:absolute;
 	width: 100%;
-	height: 50%;
+	margin-top:50%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
