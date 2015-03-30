@@ -49,7 +49,6 @@ div.brandLink {
 
 div.emailLink {
 	position:absolute;
-	margin-top: 50%;
 	width: 100%;
 	text-align: center;
 	margin-left: auto;
@@ -60,19 +59,17 @@ div.emailLink {
 }
 div.twitterLink {
 	position:absolute;
-	margin-top: 50%;
 	right:20px;
 }
 div.githubLink {
 	position:absolute;
-	margin-top: 50%;
 	left:20px;
 	
 }
 
 a.mobile-platform {
 		
-		font-size: 24px;
+	font-size: 24px;
 		
 }
 
@@ -97,7 +94,7 @@ img.mobile-hamburgerMenu {
 	
 	div.brandLink {
 
-	margin-top: 15px;
+		margin-top: 15px;
 	
 	}
 	
