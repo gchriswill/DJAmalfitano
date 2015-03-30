@@ -17,7 +17,7 @@ div.navWrapper {
 }
 
 div.botNavWrapper {
-	background-color: #330;
+	background-color: gray;
 	position: absolute;
 	bottom: 5px;
 	width: 100%;
@@ -50,21 +50,21 @@ div.brandLink {
 div.emailLink {
 	position:absolute;
 	width: 100%;
-	margin-top:20px;
 	text-align: center;
+	margin-top:20px;
 	margin-left: auto;
 	margin-right: auto;
-	
-	
 	
 }
 div.twitterLink {
 	position:absolute;
 	margin-top:20px;
+	margin-right:5px;
 	right:20px;
 }
 div.githubLink {
 	position:absolute;
+	margin-right:5px;
 	margin-top:20px;
 	left:20px;
 	
