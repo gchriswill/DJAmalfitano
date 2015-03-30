@@ -48,6 +48,9 @@ div.brandLink {
 }
 
 div.emailLink {
+	position:absolute;
+	margin-top: 50%;
+	height: 100%;
 	width: 100%;
 	text-align: center;
 	margin-left: auto;
@@ -57,10 +60,15 @@ div.emailLink {
 	
 }
 div.twitterLink {
+	position:absolute;
+	margin-top: 50%;
+	height: 100%;
 	right:20px;
 }
 div.githubLink {
-	
+	position:absolute;
+	margin-top: 50%;
+	height: 100%;
 	left:20px;
 	
 }
@@ -72,9 +80,7 @@ a.mobile-platform {
 }
 
 a.bottomText {
-	position:absolute;
-	margin-top: 50%;
-	height: 100%;
+
 	font-Size: 18px;
 	
 }
