@@ -1,129 +1,166 @@
-/* Custom CSS */
-a {
-	color: white;
-}
+/*
+	Created by David Amalfitano D.K.A "djamalfitano"
+	
+*/
 
-b {
-	color: white;
+
+
+
+/* Default Styles */
+body, div {
+	
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode", 
+		"Lucida Grande",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+	
 }
 
 body {
-	background-color: black;
-}
-
-
-div.navWrapper {
+	
+	width: 100%;
+	height: 100%;
 	background-color: white;
 	position: absolute;
-	width: 200px;
-	height: 90%;
-	display: block;
-	
+	display: table;
+		
 }
 
-div.botNavWrapper {
-	background-color: gray;
-	position: absolute;
-	bottom: 5px;
+div#root-container {
+	margin: 0px;
+	padding: 0px;
 	width: 100%;
-	height: 50px;
-	display: block;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	background-color: white;
 }
 
-nav.MainNav {
-	
-	width: inherit;
-	height: inherit;
-	
-}
-
-nav.BotNav {
-	
-	width: inherit;
-	height: inherit;
-}
-
-div.brandLink {
-
-	display: inline-block;
-	height: 30px;
-	margin-top: 10px;
-	margin-left: 10px;
-	
-}
-
-div.emailLink {
-	position:absolute;
-	width: 100%;
+div#center-container {
+	background-color: transparent;
 	text-align: center;
-	margin-top:20px;
-	margin-left: auto;
-	margin-right: auto;
-	
-}
-div.twitterLink {
-	position:absolute;
-	right:20px;
-	margin-right:5px;
-	
-}
-div.githubLink {
-	position:absolute;
-	margin-right:5px;
-	margin-top:20px;
-	left:20px;
-	
 }
 
-a.mobile-platform {
-	color: gray;
-	font-size: 20px;
-		
+#userImage {
+	
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 0px;
+	width: 0px;
+	height: 0px;
+	border-radius: 64px;
+	background-color: black;
+	border: 1px solid black;
+	opacity: 0;
+	-webkit-animation: sizeit 1.5s 3.5s forwards ease-in;
+
 }
 
-b.bottomText {
-
-	font-Size: 18px;
+h3 {
+	
+	color: rgba(0,0,0,0.9);
+/* 	text-shadow: 0px 0px 25px red; */
+/* 	-webkit-animation: pulseText 2.2s; */
 	
 }
 
-img.mobile-hamburgerMenu {
-	
-	margin-top: 10px;
-	margin-right: 10px;
-	height: 30px;
-	width: auto;
-	float: right;
+li > a {
+	color: black;
+	text-decoration: none;
+	background-color: transparent;
 	
 }
 
+.gnav {
+	background-color: gray;
+	display: block;
+}
 
-@media (max-width:640px) {
+ul.gnavlist {
 	
-	div.brandLink {
+	margin: auto;
+	padding: 0;
+	list-style: none;
+}
 
-		margin-top: 15px;
+li {
+	display: inline;
+}
+
+li > a > img {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+a.navanimate1 > img {
 	
+	-webkit-animation: sizeit2 1s 0.5s forwards ease-in;
+}
+
+a.navanimate2 > img {
+	
+	
+	width: 10px;
+	-webkit-animation: sizeit2 1s 1.5s forwards ease-in;
+}
+
+a.navanimate3 > img {
+	
+	-webkit-animation: sizeit2 1s 2.5s forwards ease-in;
+}
+
+@-webkit-keyframes sizeit {
+	
+	0% {
+		width: 0px;
+		height: 0px;
+		opacity: 0;
+	}
+
+	100% {
+		width: 128px;
+		height: 128px;
+		opacity: 1;
 	}
 	
-	a.mobile-platform {
-		
-		float: left;
-		font-size: 14px;
-		
+}
+
+@-webkit-keyframes sizeit2 {
+	
+	0% {
+		width: 0px;
+		height: 0px;
+		opacity: 0;
 	}
-	
-	
-	img.mobile-hamburgerMenu {
-		
-		margin-top: 10px;
-		margin-right: 10px;
-		height: 30px;
-		width: auto;
-		float: right;
-		
+
+	100% {
+		width: 60px;
+		height: 60px;
+		opacity: 1;
 	}
 	
 }
 
 
+/*
+@-webkit-keyframes pulseImage {
+	
+	0% {
+		box-shadow: 0 0 5px rgba(255, 0, 0, 0.1);
+	}
+
+	50% {
+		box-shadow: 0 0 128px rgba(255, 0, 0, 1);
+	}
+
+	100% {
+		box-shadow: 0 0 5px rgba(255, 0, 0, 0.1);
+	}
+	
+}
+*/
